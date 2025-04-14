@@ -1,4 +1,5 @@
-# Objective 5: Histogram – Distribution of Dried Up Sources
+# Objective 5: Histogram – Distribution of Dried Up Sources 
+
 plt.figure(figsize=(8, 6))
 plt.hist(df['Dried up - No.'], bins=20, color='orange', edgecolor='black')
 plt.title('Histogram: Distribution of Dried Up Sources Across Villages')
