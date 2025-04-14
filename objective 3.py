@@ -1,4 +1,5 @@
 # Objective 3: Scatter Plot – Dried Up vs. Destroyed Sources
+
 plt.figure(figsize=(8, 6))
 plt.scatter(df['Dried up - No.'], df['Destroyed beyond repair - No.'], alpha=0.5)
 plt.title('Scatter Plot: Dried Up vs. Destroyed Sources')
