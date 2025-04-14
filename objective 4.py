@@ -1,4 +1,5 @@
 # Objective 4: Horizontal Bar Chart – Issues by Cause in Anantapur District
+
 district_data = df[df['District'].str.upper() == 'ANANTAPUR']
 causes = ['Salinity - No.', 'Dried up - No.', 'Destroyed beyond repair - No.',
           'Sea water intrusion  - No.', 'Industrial effluents - No.', 'Other reasons - No.']
