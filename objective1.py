@@ -6,6 +6,7 @@ import numpy as np
 path = "C:\\Users\\cherry\\Downloads\\mi_census5_13-14_Table1.10 (1).csv"
 df = pd.read_csv(path)
 
+
 print(df.head())
 print(df.tail())
 print(df.describe())
